@@ -150,6 +150,26 @@ lib/
 - Improve error handling and offline experience
 - Add theme / dark mode support
 
+## Assignment
+
+### Password Visibility Toggle
+
+Implement functionality to hide and show password text in the password input fields for both the user login screen (`lib/app/modules/user/views/user_view.dart`) and the account creation screen (`lib/app/modules/user/views/create_account.dart`).
+
+**Requirements:**
+
+- Add an eye icon button to toggle password visibility
+- Use the existing `CustomTextFeilds` component or modify it to support password visibility toggle
+- Ensure the toggle works for both login and signup forms
+- Maintain consistent UI styling with the rest of the app
+
+**Steps:**
+
+1. Update the `CustomTextFeilds` component to accept a `showPassword` parameter and visibility toggle callback
+2. Add an `IconButton` with eye/eye-off icons to the password fields
+3. Implement state management to toggle password visibility
+4. Test the functionality on both login and create account screens
+
 ## Resources
 
 ### Packages used in `pubspec.yaml`
