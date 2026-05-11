@@ -150,6 +150,26 @@ lib/
 - Improve error handling and offline experience
 - Add theme / dark mode support
 
+## Resources
+
+### Packages used in `pubspec.yaml`
+
+- [cupertino_icons](https://pub.dev/packages/cupertino_icons)
+- [get](https://pub.dev/packages/get)
+- [page_transition](https://pub.dev/packages/page_transition)
+- [fluttertoast](https://pub.dev/packages/fluttertoast)
+- [get_storage](https://pub.dev/packages/get_storage)
+- [smooth_page_indicator](https://pub.dev/packages/smooth_page_indicator)
+- [loading_animation_widget](https://pub.dev/packages/loading_animation_widget)
+- [gap](https://pub.dev/packages/gap)
+- [http](https://pub.dev/packages/http)
+- [after_layout](https://pub.dev/packages/after_layout)
+
+### Dev packages
+
+- [flutter_test](https://pub.dev/packages/flutter_test)
+- [flutter_lints](https://pub.dev/packages/flutter_lints)
+
 ## Contact
 
 For questions or contributions, open an issue or pull request in this repository.
